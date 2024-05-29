@@ -35,5 +35,5 @@ public class categoria {
 		return "categoria [idCategoria=" + idCategoria + ", categoria=" + categoria + ", descripcion=" + descripcion
 				+ "]";
 	}
-	
+	//comentario
 }
