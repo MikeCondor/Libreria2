@@ -4,57 +4,70 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class facturaDetalle {
-
+ 
 	private int idFacturaDetalle;
 	private int cantidad;
 	private float subtotal;
-	private factura factura;
-	private libro libro;
-	public facturaDetalle(int idFacturaDetalle, int cantidad, float subtotal) {
-		super();
+	private Factura factura;
+	private Libro libro;
+	
+	public facturaDetalle () {    }
+	
+	public facturaDetalle(int idFacturaDetalle, int cantidad, float subtotal, int idFactura, int idLibro) {
+	
 		this.idFacturaDetalle = idFacturaDetalle;
 		this.cantidad = cantidad;
 		this.subtotal = subtotal;
-		
-		
+		//this.idFactura = idFactura;
+		//this.idLibro = idLibro;
 	}
+ 
 	public int getIdFacturaDetalle() {
 		return idFacturaDetalle;
 	}
+ 
 	public void setIdFacturaDetalle(int idFacturaDetalle) {
 		this.idFacturaDetalle = idFacturaDetalle;
 	}
+ 
 	public int getCantidad() {
 		return cantidad;
 	}
+ 
 	public void setCantidad(int cantidad) {
 		this.cantidad = cantidad;
 	}
+ 
 	public float getSubtotal() {
 		return subtotal;
 	}
+ 
 	public void setSubtotal(float subtotal) {
 		this.subtotal = subtotal;
 	}
-	
-	
-	public factura getFactura() {
+ 
+ 
+ 
+	public Factura getFactura() {
 		return factura;
 	}
-	public void setFactura(factura factura) {
+ 
+	public void setFactura(Factura factura) {
 		this.factura = factura;
 	}
-	public libro getLibro() {
+ 
+	public Libro getLibro() {
 		return libro;
 	}
-	public void setLibro(libro libro) {
+ 
+	public void setLibro(Libro libro) {
 		this.libro = libro;
 	}
+ 
 	@Override
 	public String toString() {
 		return "facturaDetalle [idFacturaDetalle=" + idFacturaDetalle + ", cantidad=" + cantidad + ", subtotal="
 				+ subtotal + ", factura=" + factura + ", libro=" + libro + "]";
 	}
-	
 	
 }

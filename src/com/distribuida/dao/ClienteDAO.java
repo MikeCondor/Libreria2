@@ -1,7 +1,6 @@
 package com.distribuida.dao;
 
 import com.distribuida.entities.Cliente;
-
 import java.util.List;
 
 public interface ClienteDAO {
