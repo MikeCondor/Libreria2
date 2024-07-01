@@ -13,5 +13,9 @@ public List<Cliente> findALL();
 	
 	public void up (Cliente cliente);
 	
-	public void dell (Cliente cliente);
+	public void dell (int id);
 }
+
+
+
+//cdsfsdgeghergherh
