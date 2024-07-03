@@ -13,7 +13,7 @@ public List<Cliente> findALL();
 	
 	public void up (Cliente cliente);
 	
-	public void dell (int id);
+	public void del (int id);
 }
 
 

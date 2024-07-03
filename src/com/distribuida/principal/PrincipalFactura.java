@@ -32,7 +32,7 @@ public class PrincipalFactura {
 		//facturaDAO.up(factura2);
 		
 		// Delete
-		facturaDAO.dell(86);
+		facturaDAO.del(86);
 		
 		// findOne
 		System.out.println("**************** DEL ****************"+facturaDAO.findOne(86));

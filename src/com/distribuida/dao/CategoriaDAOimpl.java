@@ -44,7 +44,7 @@ public class CategoriaDAOimpl implements CategoriaDAO {
 	}
 
 	@Override
-	public void dell(Categoria cliente) {
+	public void del(Categoria cliente) {
 		// TODO Auto-generated method stub
 
 	}

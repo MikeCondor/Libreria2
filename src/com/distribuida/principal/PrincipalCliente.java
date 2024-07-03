@@ -26,7 +26,7 @@ public class PrincipalCliente {
 		clienteDAO.up(cliente2);
 		
 		// Delete
-		clienteDAO.dell(39);
+		clienteDAO.del(39);
 		
 		// findOne
 		System.out.println("**************** DEL ****************"+clienteDAO.findOne(1));

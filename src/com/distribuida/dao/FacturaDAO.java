@@ -14,5 +14,5 @@ public List<Factura> findALL();
 	
 	public void up (Factura factura);
 	
-	public void dell (int id);
+	public void del (int id);
 }

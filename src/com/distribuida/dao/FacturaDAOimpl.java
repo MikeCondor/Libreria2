@@ -53,7 +53,7 @@ public class FacturaDAOimpl implements FacturaDAO {
 
 	@Override
 	@Transactional
-	public void dell(int id) {
+	public void del(int id) {
 		// TODO Auto-generated method stub
 		Session session= sessionFactory.getCurrentSession();
 		session.delete(findOne(id));
